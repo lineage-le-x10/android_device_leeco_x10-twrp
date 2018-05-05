@@ -24,20 +24,20 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_COPY_FILES += \
     bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
-PRODUCT_NAME := lineage_zl1
-PRODUCT_DEVICE := zl1
+PRODUCT_NAME := lineage_x10
+PRODUCT_DEVICE := x10
 PRODUCT_MANUFACTURER := LeEco
 PRODUCT_BRAND := LeEco
 
 PRODUCT_GMS_CLIENTID_BASE := android-leeco
 
-TARGET_VENDOR_PRODUCT_NAME := LePro3
-TARGET_VENDOR_DEVICE_NAME := le_zl1
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=le_zl1 PRODUCT_NAME=LePro3
+TARGET_VENDOR_PRODUCT_NAME := LeMax3
+TARGET_VENDOR_DEVICE_NAME := le_x10
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=le_x10 PRODUCT_NAME=LeMax3
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=LeEco/le_zl1/LePro3:6.0.1/MMB29M/362280:user/release-keys \
-    PRIVATE_BUILD_DESC="LePro3-user 6.0.1 MMB29M 24 dev-keys"
+    BUILD_FINGERPRINT=LeEco/X10_WW/le_x10:6.0.1/LHX0S0P5902111221S/letv11220555:user/release-keys \
+    PRIVATE_BUILD_DESC="le_x10-user 6.0.1 LHX0S0P5902111221S eng.letv.20161122.055135 release-keys"
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
 
